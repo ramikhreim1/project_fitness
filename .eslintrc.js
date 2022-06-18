@@ -3,10 +3,10 @@ module.exports = {
     browser: true,
     es2021: true,
   },
- // extends: [
- //   'plugin:react/recommended',
- //   'airbnb',
- // ],
+  extends: [
+    'plugin:react/recommended',
+    'airbnb',
+  ],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -25,11 +25,13 @@ module.exports = {
     'linebreak-style': 0,
     'react/state-in-constructor': 0,
     'import/prefer-default-export': 0,
+    indent: 0,
+    'no-trailing-whitespace': 0,
     'max-len': [
       2,
       550,
     ],
-
+    "eol-last": 0,
     'no-multiple-empty-lines': [
       'error',
       {
