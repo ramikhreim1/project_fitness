@@ -1,3 +1,6 @@
+Live hosted by AWS Amplify https://www.jowry.click
+Live hosted by app.netlify.com https://golden-boba-a5f89c.netlify.app
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
